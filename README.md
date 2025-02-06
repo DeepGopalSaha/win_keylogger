@@ -31,12 +31,12 @@ A persistent keylogger for windows
 ## How to terminate this exe
 ## To Remove Persistence and Terminate the Process
 
-Run the following commands in **PowerShell** or **Command Prompt**:
+Run the following 2 commands in **PowerShell** or **Command Prompt**:
 
 - **Remove the registry key to stop persistence:**
-
+This exe will be hidden from task manager, so need to be removed via powershell.
   ```powershell
   remove-itemproperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Run" -Name "win64updates"
-  stop-process -name win64update -F (terminates the process itself)
-This exe will be hidden from task manager
+  stop-process -name win64update -F
+
 
