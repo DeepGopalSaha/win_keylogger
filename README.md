@@ -1,5 +1,7 @@
 # win_keylogger
 A persistent keylogger for windows
+  
+## !!!!This is only for educational purposes. I am not responsible for any misuse of the application.!!!!
 
 
 ## How to Use
